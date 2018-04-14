@@ -15,10 +15,7 @@ main {
 	background: url(../images/ignasi_pattern_s.png);
 }
 
-.wrapper {
-	max-width: 960px;
-	margin: 0 auto;
-}
+
 
 /*General Styles*/
 
@@ -137,17 +134,7 @@ div.bio p {
 
 /*Portfolio Section*/
 
-#portfolio figure {
-	width: calc(33.33% - 20px);
-	margin: 10px;
-	position: relative;
-	border: none;
-	transition: border 0.2s ease-in-out;
-}
 
-#portfolio figure:hover {
-	border: #666 5px solid;
-}
 
 #portfolio figcaption {
 	position: absolute;
@@ -160,17 +147,23 @@ div.bio p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: background 0.3s ease-in-out;
 }
 
-.gallery  {
-	display: flex;
-	flex-wrap: wrap;
+#portfolio figcaption:hover {
+	background: #666;
 }
 
-.gallery img {
-	max-width: 100%;
-	display: block;
+figure.gallery-item {
+	position: relative;
+	margin-bottom: 15px;
+	max-width: 400px;
 }
+
+figure img {
+	width: 100%;
+}
+
 
 /*Contact Section*/
 
