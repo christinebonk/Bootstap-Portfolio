@@ -39,20 +39,10 @@ main {
 
 /*Header Styles*/
 
-header {
-	background: white;
-	border-bottom: 2px #cccccc solid;
-}
-
 h1 {
 	margin: 0;
 	color: #4aaaa5;
-
 }
-
-
-/*Nav Styles*/
-
 
 
 /*Page Styles*/
@@ -79,22 +69,7 @@ div.me-image {
 
 div.bio {
 	padding: 30px;
-
 }
-
-/*About Me Section*/
-
-/*#about-me figure {
-	float: left;
-}
-
-#about-me figure img {
-	width: 150px;
-}
-
-div.bio p {
-	line-height: 30px;
-}*/
 
 /*Portfolio Section*/
 
