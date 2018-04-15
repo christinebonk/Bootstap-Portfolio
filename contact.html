@@ -44,19 +44,28 @@
 	<!--Header Ends-->
 	<!--Main Section Begins-->
 	<main>
-		<div class="wrapper">
+		<div class="container">
 			<section id="contact">
+				<div class="row">
 				<h2>Contact</h2>
+				</div>
 				<!--Form Begins-->
-				<form action="submit" method="GET" class="contact-form" autocomplete="on" name="contact-form">
-					<label for="name"><p>Name</p></label>
-					<input type="text" name="name" class="name" required="true" placeholder="John Smith">
-					<label for="email"><p>Email</p></label>
-					<input type="email" name="email" class="email" required="true" placeholder="example@gmail.com">
-					<label for="message"><p>Message</p></label>
-					<textarea name="message" cols="30" rows="10"></textarea>
-					<input type="submit" value="Submit">
-				</form> 
+				<div class="row">
+					<form action="submit" method="GET" class="contact-form" autocomplete="on" name="contact-form">
+						<div class="form-group">
+							<label for="name"><p>Name</p></label>
+							<input type="text" name="name" class="name form-control" required="true" placeholder="John Smith">
+						</div>
+						<div class="form-group">
+							<label for="email"><p>Email</p></label>
+							<input type="email" name="email" class="email form-control" required="true" placeholder="example@gmail.com">
+						<div class="form-group">
+							<label for="message"><p>Message</p></label>
+							<textarea name="message" cols="30" rows="10" class="form-control"></textarea>
+						</div>
+						<button class="btn btn-default" type="submit" >Submit</button>
+					</form> 
+				</div>
 			</section>
 		</div>
 	</main>
